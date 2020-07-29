@@ -31,6 +31,14 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<dependencies>
+      <dependency>
+        <groupId>org.biojava</groupId>
+        <artifactId>biojava-core</artifactId>
+        <version>5.4.0</version>
+      </dependency>
+      <!-- other biojava modules as needed -->
+    </dependencies>
 	<properties>
 		<!-- Notice: if using java 9 or 10 jres, it is possible to simply use here "8", "9" or "10". But if using java 8 jre, "8" is not an allowed value but only "1.8"-->
 		<jdk.version>1.8</jdk.version>
